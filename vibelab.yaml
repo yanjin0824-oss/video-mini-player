@@ -1,0 +1,37 @@
+app:
+  name: "视频小窗"
+  slogan: "输入视频网址，在轻巧的空间小窗中边做事边看视频"
+  description: "视频小窗是一款简洁的 PICO 空间视频播放器。只需输入或粘贴可播放的视频网址，即可在紧凑的空间窗口中观看视频，并进行播放、暂停和更换网址等操作。小窗尺寸经过优化，不会过多遮挡视野，适合在工作、浏览资料或处理其他事务时伴随观看视频。"
+  tags:
+    - 视频播放
+    - 空间工具
+    - 效率应用
+    - 小窗播放
+    - 影音娱乐
+  category: application
+  icon: assets/vibelab/icon.png
+  landscape: assets/vibelab/landscape.png
+  detail_images:
+    - assets/vibelab/detail-ready.png
+    - assets/vibelab/detail-playing.png
+    - assets/vibelab/detail-min-ready.png
+  videos: []
+version:
+  name: "V1.0.0 首次发布"
+  notes: |-
+    支持通过 HTTP/HTTPS 视频直链播放视频
+    支持播放、暂停和更换视频网址
+    提供紧凑、可缩放的空间播放窗口
+    支持视频网址格式校验及播放错误提示
+    优化窗口布局，减少对其他空间操作的遮挡
+
+    注意：当前版本主要支持 MP4 等可直接访问的媒体链接，视频网站页面、需要登录或受 DRM 保护的内容可能无法播放。
+build:
+  repo_url: https://github.com/yanjin0824-oss/video-mini-player
+  repo_visibility: public
+  tech_stack: android_spatial
+  ai_tool: Trae CLI
+  ai_model: GPT-5
+  features:
+    - controller_support
+  teammates: []
